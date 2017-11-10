@@ -27,7 +27,7 @@ let top10Actors = [
     'Paul Newman',
     'Denzel Washington'];
 
-let index = 3;
+let index = 2;// the three here
 for (index; index < top10Movies.length; index++) {
     let movie = top10Movies[index];
     console.log('Top 10 movie: ' + movie);
