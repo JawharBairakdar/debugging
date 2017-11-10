@@ -13,4 +13,6 @@ let trainArrivesHour = 9;
 
 if((trainArrivesHour - currentHour) < 3) {
     console.log("our train arrives soon");
+} else {
+    console.log("our train arrives late")
 }
