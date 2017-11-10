@@ -11,7 +11,7 @@ etc..
 let currentHour = 0;
 let trainArrivesHour = 9;
 
-for(let hour = currentHour; currentHour <= trainArrivesHour; hour++) {
+for(let hour = currentHour; hour <= trainArrivesHour; hour++) {
     let trainArrivesIn = trainArrivesHour - hour;
     console.log("train arrives in " + trainArrivesIn  + " hours");
 }
