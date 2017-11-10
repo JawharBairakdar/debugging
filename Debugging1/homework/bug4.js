@@ -12,10 +12,8 @@ let currentHour = 0;
 let trainArrivesHour = 9;
 
 let hasTrainArrived = false;
-while(!hasTrainArrived) {
+while(hasTrainArrived = currentHour <= trainArrivesHour) {
     let trainArrivesIn = trainArrivesHour - currentHour;
     console.log("train arrives in " + trainArrivesIn  + " hours");
-
     currentHour++;
-    hasTrainArrived = currentHour < trainArrivesHour;
 }
